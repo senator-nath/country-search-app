@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@utility dark-mode-bg{
+    @apply bg-gray-800 text-white
+}
